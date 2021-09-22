@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 Sept 2021, 15:14:52
+    Author     : ollie
+*/
+body {
+    background-color: #998895;
+    /*trying to add a background img, not working*/
+    ;
+    color: white;
+    margin: 60px;
+    display: var;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 60px;
+        
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border {
+    font-size: 1.6rem;
+    display: grid;
+    min-height: 200px;
+    border: 8px solid;
+    padding: 1rem;
+}
+
+.full {
+    border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+}
+
+.full-withradius {
+    position: relative;
+    background: #fff;
+}
+
+.bgImg {
+        background-image: url('../images/fuji.jpg');
+
+}
+
+.div-title:firstChild {
+    color : blue;
+    font-size: 14pt;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 5px 0;
+}
+
+.just-text {
+    background-color: menu;
+    opacity: 0.6;
+    width: 25.5%;
+    color: mediumblue;
+    font-weight: bold;
+    font-family: fantasy;     
+    
+}
+
+.btn { cursor:pointer; 
+       background-color: menu;
+       width: 24.6%;
+       color: mediumblue;
+
+} 
+
+.container {
+    position: fixed;
+}
